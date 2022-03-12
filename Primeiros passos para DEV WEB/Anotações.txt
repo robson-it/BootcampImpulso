@@ -1,0 +1,164 @@
+#--Primeiros passos com desenvolvimento WEB--#
+
+!-História da internet - Exercício
+	Qual foi o primeiro domínio criado?
+		-> nordu.net como primeiro domínio, e symbolics.com sendo o primeiro domínio comercial.
+		   Os sites ainda permanecem ativos na internet.
+	Qual o primeiro blog criado?
+		-> Open Diary, criado por Claudio Pinhanez em 1994.
+	Qual foi a primeira compra feita pela internet?
+		-> Foi a compra de um CD de Sting, em 1994.
+	Qual o site mais antigo em atividade?
+		-> nordu.net, em uso até o dia de hoje.
+
+!-Redes de computadores
+	Backbone ->
+		"Espinha dorsal"(Forma de conexão de longa escala) utilizado para
+		conectar as diversas redes de computadores espalhadas pelo mundo.
+	Provedor de acesso ->
+		Se conectam ao backbone e repassam ao usuário final.
+	Provedor de serviço ->
+		Provem acesso as diferentes tipos de serviços de conexão e serviços
+		disponibilizados através da internet.
+	Dns -> 
+		Traduz um domínio em IP e vice-versa.
+	www -> 
+		World Wide Web
+	127.0.0.1 ->
+		Endereço local ou localhost da máquina. Utilizado para acessar
+		serviços web que rodam localmente.
+
+
+!-TCP/IP
+	Tcp/IP ->
+		Protocolo de comunicação entre equipamentos em rede. Modelo que utiliza camadas.
+		Camadas: Física, Rede, Transporte(tcp, udp...), Aplicações(ftp, smtp, http...).
+		
+
+!-Portas
+	Portas ->
+		Numéro que define uma "porta" de entrada e saída de dados de um computador.
+		Padrões: ftp:20, ssh:22, smtp:25, dns:53, http:80, https:443.
+
+!-Equipamentos
+	Modem -> 
+		Conversor do sinal recebido/enviado entre internet e computador.
+	Roteador ->
+		Distribui conexão com a internet entre dispositivos. Comunicação entre redes.
+	Switch ->
+		Distribui conexão com a internet de forma inteligente, identificando os donos dos pacotes.
+
+	Exercício - Definir as portas padrões dos serviços ->
+		Gmail POP3 -> 995
+
+		Gmail SMTP -> 587
+
+		MySQL -> 3306
+
+		Apache -> 80
+
+!-Dados móveis
+	SMS ->
+		Não tem custo para a operadora. O celular fica constantemente trocando bits
+		com a torre de comunicação, e o sms pega carona nessa troca.
+	MMS -> 
+		Transmissão de mensagem multmídia(áudio, vídeo), mas de forma primitiva.
+	Conexões móveis ->
+		1G: analógico, 10kbps.
+		2G: digital GSM, 97kbps.
+		2,5G: GPRS dados + voz, 32-80kbps.
+		2,75G: EDGE 128-236kbps.
+		3G: 7Mbps.
+		4G: 22,1Mbps.
+		5G: 10Gbps.
+	
+!-Wi-Fi
+	Padrões->
+		IEEE 802.11 ->
+			_:2,4 Ghz, 2Mbps.
+			a:5 Ghz, 54Mbps.
+			b:2,4 Ghz, 11Mbps (voltou a operar na frequência 2,4 para diminuir a interferência.
+			g:2,4 Ghz, 54Mbps.
+			n:2,4/5 Ghz, 150/600Mbps.
+	Segurança ->
+		WEP ->
+			chaves de 64 e 128 bits.
+		WPA ->
+			chave trocada periodicamente.
+		WPA2 (AES) 802.11i ->
+			Maior segurança, porém, exige maior processamento por parte do roteador.
+
+!-Bluetooth
+	Versões ->
+		1.2: 1Mbps.
+		2.0+EDR: 3Mbps.
+		3.0: 24Mbps.
+		4.0: 25Mbps.
+		5.0: 50Mbps.
+
+!-Browser
+	Browser ->
+		Interpreta as linguagens de marcação, programação e multimídia.
+		Gerencia add-ons e plug-ins que executam ações durante a navegação.
+
+!-Web-Server
+	Web-Server estático ->
+		Servidores físicos que armazenam as aplicações web.
+	Web-Server dinâmico ->
+		Softwares presentes nos servidores físicos, que respondem a requisições de determinado tipo.
+	Web-Service ->
+		Interface que que faz requisições em banco de dados e os disponibiliza.
+
+!-Stacks
+	Stacks ->
+		Pilha de tecnologia. Ambiente de tecnologia disponível para o desenvolvimento.
+	Stack Front-End ->
+		Voltado a interação e visual. Interface UI UX.
+	Stack Back-End ->
+		Voltado ao processamento. Programação executada na "parte de trás"(servidores).
+		Transparente ao usuário final.
+	Stack Full-Stack ->
+		Front-End + Back-End.
+		
+accordion jquery.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	

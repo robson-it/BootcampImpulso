@@ -1,0 +1,56 @@
+#--Pensamento Computacional--#
+
+!-Pilares:
+	Decomposição -> Segmentar um problema; Decompor um grande problema em
+	pequenos problemas.
+
+	Reconhecimento de padrões -> Reconhecer a tendência de comportamento que
+	está acontecendo.
+
+	Abstração -> Generalizar. Exemplo: medir a circunferência de um círculo,
+	2.pi.r.
+
+	Design de Algoritmos -> Definir visualmente um algoritmo, o passo a passo
+	para a solução do problema.
+
+!-Ciclo:
+	Análise -> Definir a solução.
+	Teste -> Esgotar testes da solução definida.
+	Refinamento -> Aperfeiçoar a solução definida.
+
+!-Obs: É necessário aperfeiçoar o raciocínio lógico para um melhor pensamento computacioanl.
+
+!-Raciocínio Lógico:
+	Inferência ->
+		Sintética ->
+			Abdução
+			Indução
+		Analítica -> 
+			Dedução
+
+!-Algoritmos
+	Métodos de contrução de algoritmos -> Narrativa, Fluxograma, Pseudocódigo.
+
+
+!-Estudo de caso 1 @Perdido na floresta:
+	Identificar mecanismos
+	Recursos comuns
+	Detalhes mais importantes
+
+	Sobrevivência ->
+     		Água ->
+			Chuva
+			Nascente ->
+				Fogo
+		Comida ->
+			Coletar
+			Caçar ->
+				Fogo
+		Abrigo -> 
+			Localização ->
+				Mapa
+			Proteção ->
+				Fogo
+				Lança
+			Quente e seco -> 
+				Fogo

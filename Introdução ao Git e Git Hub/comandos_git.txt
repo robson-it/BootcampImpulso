@@ -1,0 +1,24 @@
+git init -> para inicializar o diretório do projeto.
+touch -> criar um arquivo
+git add -> prepara o arquivo para ser comitado
+git commit -m -> "Mensagem do parâmetro -m"
+git status -> mostra o estado dos arquivos dentro do diretório.
+git log -> apresenta o log de alteraçoes.
+git show -> recebe como parâmetro a chave do commit e apresenta o commit detalhado. Git show sem parâmetro apresenta os detalhes do último commit.
+git branch -> Espécie de linha do tempo (utilizamos a master quando não criamos uma). Recebe o nome da branch como parâmetro.
+git checkout -> Recebe o nome de uma branch existente como parâmetro, e a deixa em uso.
+ls -al -> exibe o conteúdo da branch
+git merge -> Recebe como parâmetro o nome da branch que deseja unir com a branch atual.
+git branch -D -> Recebe como parâmetro o nome da branch que deve ser deletada.
+git remote add origin -> Recebe como parâmetro o endereço do repositório remoto do github que será adicionado.
+git push -u origin master -> Faz o envio dos arquivos para o github, sincronizando o repositório local com o remoto.
+git remote -v -> Exibe o endereço origin.
+git remote set-url origin -> recebe como parâmetro o endereço oringin para alteração.
+git config --list -> Exibe as configurações atuais.
+git clone -> Recebe como parâmetro a url do repositório-github a ser clonado.
+git checkout -b -> Recebe como parâmetro o nome da nova branch e ja a coloca em uso.
+git commit -am -> Prepara o commit (git add) e ja commita, Recebe como parâmetro a mensagem do commit.
+git rm -> Recebe como parâmetro o nome do arquivo que será removido.
+
+
+Guia de comando GIT -> https://gist.github.com/leocomelli/2545add34e4fec21ec16#criar-um-novo-branch-e-trocar
