@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/museu.css">
+    <link rel="stylesheet" href="style/owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="style/owl/owl.theme.default.min.css">
+    <link rel="stylesheet" href="style/responsive.css">
+    <link rel="stylesheet" href="style/vangogh.css">
+    <link rel="stylesheet" type="text/css" href="/style/modal/modal-video.min.css">
+    <title>MuseuFlix</title>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <h2 class="logo"><a href="index.html"><img class="logotipo" src="img/logoflix.png" alt="logotipo"></a></h2>
+            <nav>
+                <a href="index.html">Ínicio</a>
+                <a href="#">Galeria</a>
+            </nav>
+        </div>
+        <img class="rodape" src="/img/hr2.png">
+    </header>
+
+    <main>
+        <div class="museu-capa">
+            <div class="container">
+                <h3 class="titulo">MUSEU VAN GOGH</h3>
+                <p class="descricao">
+                    O Museu Van Gogh é um museu de arte localizado no município de Amsterdã, na província de Holanda do Norte nos Países Baixos. O museu é responsável pela preservação, conservação e difusão da obra do pintor holandês Vincent van Gogh.
+                </p>
+                <div class="botoes">
+
+                    <button class="botao js-video-button" data-video-id='dd2byOFsXpo'>
+                        <i class="fa-solid fa-play"></i>Assistir Agora
+                    </button>
+                    
+                    <a href="https://www.vangoghmuseum.nl/pt/planeje-sua-visita"><button role="button" class="botao">
+                        <i class="fa-solid fa-circle-info"></i>Mais Informações
+                    </button></a>
+                </div>
+
+                
+            </div>
+           
+        </div>
+
+        
+    </main>
+
+    <footer><hr>
+        <div class="container">
+            Desenvolvido por Robson Alves Rocha - 2022.
+        </div>
+    </footer>
+    <script src="https://kit.fontawesome.com/e818be3b5d.js" crossorigin="anonymous"></script>
+    <script src="js/owl/jquery.min.js"></script>
+    <script src="js/owl/owl.carousel.min.js"></script>
+    <script src="js/main.js"></script>
+    <script
+	    src="https://code.jquery.com/jquery-2.2.4.min.js"
+	    integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+	    crossorigin="anonymous">
+    </script>
+	<script src="/js/modal/jquery-modal-video.min.js"></script>
+	<script>
+		$(".js-video-button").modalVideo({
+			youtube:{
+				controls:0,
+				nocookie: true
+			},url: "https://developer.a-blogcms.jp/themes/developer/movies/280.mp4"
+		});
+	</script>
+  
+</body>
+</html>

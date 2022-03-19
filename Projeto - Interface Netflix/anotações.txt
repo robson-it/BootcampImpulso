@@ -1,0 +1,7 @@
+- Estudar a fundo o flex-box.
+Hover -> 
+	Propriedade utilizada para definir o comportamento do elemento quando o cursor estiver em cima dele.	
+	Exemplo: h3:hover {color:blue;}
+
+Atalho ->
+	alt + shift + "seta para baixo": Duplica a linha em curso.
