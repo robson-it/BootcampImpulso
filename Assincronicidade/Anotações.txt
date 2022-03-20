@@ -1,0 +1,90 @@
+Assincronicidade ->
+	Definição ->
+		Algo que não ocorre ou não se efetiva ao mesmo tempo.
+	Promises ->
+		Objeto de processamento assíncrono.
+		Tem seu valor desconhecido por ínicio.
+		Pode ser resolvida ou rejeitada.
+		Possui 3 estados: Pending (pendente), Fulfilled (processada), Rejected (rejeitada).
+	Estrutura ->
+		const myPromise = new Promise ((resolve, reject) =>{
+			window.seTimeout(() => {
+				resolve('Resolvida');
+			},2000);
+		});
+
+		await myPromise
+			.then((result) => result + ' passando pelo then')
+			.then((result) => result + ' último then')
+			.catch((err) => console.log(err.message));
+
+	Async ->
+		Utilizada para definirfunções assíncronas.
+	Await ->
+		Para a execução do código até que a promise seja resolvida.
+	
+	Utilizando async e await ->
+		async function resolvePromise(){
+				const myPromise = new Promise ((resolve, reject) =>{
+				window.seTimeout(() => {
+					resolve('Resolvida');
+				},3000);
+			});
+
+			const resolved = await myPromise
+				.then((result) => result + ' passando pelo then')
+				.then((result) => result + ' último then')
+				.catch((err) => console.log(err.message));
+		
+			return resolved;
+		}
+
+	Utilizando async e await com try/catch ->
+		async function resolvePromise(){
+				const myPromise = new Promise ((resolve, reject) =>{
+				window.seTimeout(() => {
+					resolve('Resolvida');
+				},3000);
+			});
+
+			let result;
+
+			try {
+				result = await myPromise
+					.then((result) => result + ' passando pelo then')
+					.then((result) => result + ' último then')
+			}catch(err){				
+				result = err.message;
+			}
+			return result;
+		}	
+
+API ->
+	Application Progrmming Interface.
+	Intermedia os resultados do back-end com o que é apresentado no front-end.
+	Pode ser acessada por url.
+	Comum o retorno de dados da API através do padrão JSON (Javascript Object Notation).
+
+Fetch ->
+	Método utilizado para consumir API's.
+	Exemplo ->
+		fetch(url, options)
+			.then(response => response.json())
+			.then(json => console.log(json))
+		//Retorna uma promisse. Ao utilizar fetch, é necessário async e await.
+	
+	Consumindo API ->
+		fetch('https://endereco-api.com/',{
+			method: 'GET',
+			cache: 'no-cache',
+			})
+			.then(resonse => response.json())
+			.then(json => console.log(json))
+
+		fetch('https://endereco-api.com/',{
+			method: 'POST',
+			cache: 'no-cache',
+			body: JSON.stringify(data)
+			})
+			.then(resonse => response.json())
+			.then(json => console.log(json))

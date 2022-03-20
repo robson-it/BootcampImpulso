@@ -1,0 +1,26 @@
+Paradigmas -> 
+	Imperativo ->
+		Procedural, POO, Processamento paralelo.
+	Declarativo ->
+		Lógica, Funcional, Banco de dados, Fluxo de dados.
+
+POO -> 
+	Pilares ->
+		Herança, Polimorfismo, Encapsulamento, Abstração.
+	Abstração ->	
+		Simplificar (generalizar) objetos complexos.
+	Herança -> 
+		Objeto filho que herda propriedades e métodos dos pais.
+	Encapsulamento ->
+		Tornar propriedades e métodos independentes de outros códigos.
+	Polimorfismo -> 
+		Objeto que herda a classe pai, porém muda o comportamento dos métodos quando invocados.
+
+OOJS ->
+	Orientação a objetos com Javascript.
+	Protótipos ->
+		Todos os objetos Javascript herdam propriedades e métodos de um prototype.
+		O objeto Object.prototype está no topo desta cadeia.
+	Classes ->
+		Nativamente classes não existem no JS. Geralmente se usam objetos.
+		A partir do JS6 é possível utilizar a sintaxe de classe.
