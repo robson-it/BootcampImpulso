@@ -1,0 +1,72 @@
+:root{
+    --fundo: #000214;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: var(--fundo);
+    font-family: 'Arial', Times, serif;
+    color: #ffff00;
+    
+}
+
+header .logotipo{
+    width: 250px;
+    height: 50px;
+
+}
+
+header .rodape{
+    width:100%;
+}
+
+header .container{
+    background-color: #000000;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between  ;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+header nav a{
+    text-decoration: none;
+    color: #ffff00;
+    margin-right: 10px;
+}
+
+
+hr{
+    border-color: #ffff00;
+}
+
+
+body p{
+    font-size: 20px;
+    text-align: center;
+}
+
+
+footer .container{
+    background-color: #000000;
+    padding-right: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: right;
+    color:#ffff00;
+	bottom:0px;
+	width:100%;
+    position: relative;
+}
+
+main .container{
+    padding-left: 28%;
+    margin-bottom: 2%;
+    
+}
