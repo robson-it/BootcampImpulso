@@ -1,0 +1,33 @@
+ECMAScript Error e DOMException ->
+
+	ECMAScript Error ->	
+		Erro em tempo de execução.
+		Composição ->
+			Mensagem, Nome, Linha, Call Stack.
+	
+	DOMException ->
+		Erro relacionado ao Document Object Model (DOM).
+		Exemplo de erro ->
+			Inserir elemento em local inválido da página.
+			Apresentar uma string com caractere inválido.
+		
+Throw Try/Catch Finally ->
+	
+	Throw ->
+		Captura e lança o erro.
+
+	Try/Catch Finally ->
+		Try ->
+			Parte do bloco que será executada se não houver erro.
+		Catch ->
+			Parte do bloco que ira capturar o erro e fazer as tratativas.
+		Finally ->
+			Parte do bloco que será executada independentemente de haver erro ou não.
+
+Objeto Error ->
+	Parâmetros ->
+		message, filename, lineNumber.
+	Contrução de um Error ->
+		const meuError = new Error('Mensagem Inválida');
+		throw meuError;
+		// meuError.name; meuError.stack; meuError;

@@ -1,0 +1,52 @@
+Map ->
+	Estrutura chave - valor ({"chave" => "valor"}).
+
+	Métodos ->
+		set, get, delete.
+	
+	Exemplo de map ->
+		const myMap = new Map()
+
+		myMap.set('apple', 'fruit');
+		//map(1) {"apple" => "fruit"}
+
+		myMap.delete("apple")
+		//true
+
+		myMap.get("apple")
+		//undefined
+
+	Map x Objeto -> 
+		Map ->
+			Chaves de qualquer tipo.
+			Possui a propriedade length.
+			Mais utilizado quando não se conhece o tamanho.
+			Valores do mesmo tipo.
+		Objeto ->
+			Chaves do tipo string.
+			Precisa passar pelos items para descobrir o tamanho.
+			Mais utilizado quando já se tem um tamanho definido.
+			Valores de tipos diferentes.
+
+Set ->
+	Estrutura de colação que armazena valores únicos (não se repetem).
+
+	Exemplo de Set ->
+		const mySet = new Set()
+
+		mySet.add(1);
+		mySet.add(5);
+
+		mySet.has(1);
+		//true
+
+		mySet.has(3);
+		//false
+
+		mySet.delete(5);
+
+	Características ->
+		Tamanho através da propriedade size.
+		Não possui map, filter, reduce etc.
+		Valores únicos, não repetidos.
+		
