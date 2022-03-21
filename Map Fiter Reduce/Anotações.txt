@@ -1,0 +1,36 @@
+Map Filter Reduce ->
+	Map ->
+		É quando um conjunto passa por uma operação e se transforma em outro conjunto.
+		Não altera o arry original, cria um novo array. Realiza operações na ordem.
+		Sintaxe ->
+			array.map(callback, thisArg)	
+			callback ->
+				Função a ser executada em cada elemento.
+				callback(item, index, array)
+			thisArg(opcional) ->
+				valor de this dentro da função de callback.
+	Map x forEach ->
+		Map ->
+			const array = [1,2,3,4,5];
+			array.map((item) => item * 2); // retorno: [2,4,6,8,10];
+
+		forEach ->
+			const array = [1,2,3,4,5];
+			array.forEach((item) => item * 2); // retorno: undefined
+
+		Diferença ->
+			A diferença está no retorno. 
+			É necessário utilizar uma constante para capturar a operação realizada no forEach.
+	
+	Filter ->
+		Método de filtro.
+		Cria um novo array assim como o Map.
+		Retorna os items que correspondem a condição do filter.
+		array.filter(callback, thisArg)
+		Exemplo ->
+			const frutas = ['maçã fuji', 'maçã verde', 'laranja', 'abacaxi'];
+			frutas.filter((fruta) => fruta.includes('maça'));
+			//retorno: ['maça fuji', 'maçã verde'];
+
+
+		
