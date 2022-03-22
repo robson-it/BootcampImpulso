@@ -1,0 +1,44 @@
+DOM ->
+	Document Object Model
+	Árvore padrão de elementos html de uma página.
+	Fica dentro do BOM.
+
+BOM -> 
+	Browser Object Model
+	Tudo que está dentro do objeto window.
+
+Métodos ->
+	document.getElementById('');
+	document.getElementsByTagName('');
+	document.getElementsByClassName('');
+	document.querySelectorAll('');
+	document.createElement('');
+	document.removeChild('element');
+	document.appendChild('');
+	document.replaceChild('','');
+	
+Métodos de alteração de classe ->
+	const meuElemento = document.getElementById('elemento');
+	meuElemento.classList.add('classe');
+	meuElemento.classList.remove('classe');
+	meuElemento.classList.toggle('classe'); //adiciona a classe se ela não fazer parte da lista ou remove caso faça.
+
+Método de alteração css no elemento ->
+	document.getElementsByTagName('p').style.color = 'white';
+
+Eventos ->
+	mouseover, mouseout, click, dbclick, change, load.
+	Exemplo ->
+		const botao = document.getElementById('seuBotao');
+		botao.addEventListener('click', outraFuncao);
+
+	Exemplo direto no html ->
+		<h1 onclick = 'mudaTexto(this)'> Clique aqui </h1>
+		<script>
+			function mudaTexto(id){
+				id.innerHTML = 'Mudei!';
+			}
+		</script>
+
+
+

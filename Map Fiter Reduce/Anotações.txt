@@ -32,5 +32,19 @@ Map Filter Reduce ->
 			frutas.filter((fruta) => fruta.includes('maça'));
 			//retorno: ['maça fuji', 'maçã verde'];
 
+	Reduce ->
+		Executa uma função em todos os elementos do array e retorna um valor único.
+		array.reduce(callbackFn, initialValue)
+		Callback ->
+			Função a ser executada a partir do acumulador.
+		initialValue ->
+			valor sobre o qual o retorno final irá atuar.
+		Exemplo ->
+			const callbackFn = function(acumulator, currentValue, index, arrya){
+				//do something
+			}	
+			array.reduce(callbackFn, initialValue)
+	
+
 
 		
