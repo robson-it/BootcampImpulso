@@ -1,0 +1,11 @@
+ReactJS ->
+	É uma biblioteca e não um framework.
+	Teve sua origem dentro do facebook em 2012.
+	A partir de 2015 foi liberado para uso open source.
+	Tem como principal função criar interface para o usuário.
+	É uma linguagem declarativa.
+
+Configuração ->
+	React Create App ->
+	React Scripts ->
+	Task Runners e Bundler Sizers ->
